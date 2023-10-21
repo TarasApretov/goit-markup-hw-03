@@ -39,7 +39,6 @@ body {
 }
 
 .contaiter {
-    display: flex;
     width: 1158px;
     margin: 0 auto;
     padding: 0 15px;
@@ -48,6 +47,7 @@ body {
 .header-field {
     background: #FCFCFC;
     border-bottom: 1px solid #e7e9fc;
+    display: flex;
 }
 /* logo----------- */
 
