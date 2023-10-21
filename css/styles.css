@@ -227,12 +227,13 @@ body {
 /* ----------sectoin three--------- */
 .section-three {
     background-color: #F4F4FD;
-    padding: 120px 0
+    padding: 120px 0;
 }
 
 .li-section-three {
     background-color: #FFFFFF;
     border-radius: 0px 0px 4px 4px;
+    width: calc((100% - 72px) / 4);
 }
 .three-text-head {
     font-family: Roboto;
@@ -250,14 +251,15 @@ body {
     background-color: #F4F4FD;
     padding: 120px 0;
     margin-bottom: 72px;
-
-
 }
 .cowoker {
     padding: 32px 0;
 
 }
+.name-major {
+    padding: 32px 0;
 
+}
 .three-section-list{
     display: flex;
     gap: 24px;
@@ -273,6 +275,7 @@ body {
     color: #2E2F42;
     text-align: center;
     margin-bottom: 8px;
+    
 }
 
 .three-job-title {
@@ -305,12 +308,15 @@ body {
     padding-bottom: 120px;
 
 }
-.{
+.four-ul {
     display: flex;
     flex-wrap: wrap;
     column-gap: 24px;
     row-gap: 48px;
-    
+
+}
+.four-list {
+    width: calc((100% - 48px) / 3);
 }
 /* --------------Footer----------- */
 .footer-section {
