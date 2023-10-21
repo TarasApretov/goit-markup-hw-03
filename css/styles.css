@@ -39,9 +39,9 @@ body {
 }
 
 .contaiter {
-    display: flex;
     width: 1158px;
     margin: 0 auto;
+    padding: 0 15px;
 }
 /* ---------------HEADER-------------- */
 .header-field {
@@ -112,8 +112,7 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
-    display: flex;
-    gap: 40px;
+   
 }
 
 .add-ref {
@@ -126,6 +125,8 @@ body {
 
 .address-li {
    color: #434455;
+    display: flex;
+    gap: 40px;
 
 }
 .address-li:hover, .address-li:focus {
