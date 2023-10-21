@@ -50,7 +50,9 @@ body {
     
 }
 /* logo----------- */
-
+.wer {
+    display: flex;
+}
 .logo-field {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
@@ -66,9 +68,11 @@ body {
     color: #2e2f42;
 }
 /* navigatoin----------- */
+
 .nav-cont {
    display: flex;
    align-items: center;
+   
 
 
 }
@@ -113,6 +117,7 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+    
    
 }
 
@@ -126,8 +131,8 @@ body {
 
 .address-li {
    color: #434455;
-    display: flex;
-    gap: 40px;
+   display: flex;
+   gap: 40px;
 
 }
 .address-li:hover, .address-li:focus {
