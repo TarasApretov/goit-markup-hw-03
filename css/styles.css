@@ -47,11 +47,13 @@ body {
 .header-field {
     background: #FCFCFC;
     border-bottom: 1px solid #e7e9fc;
+    padding: 24px;
     
 }
 
 .ad-cont {
     display: flex;
+    justify-content: space-between;
 }
 /* logo----------- */
 
@@ -157,6 +159,12 @@ body {
     color: #ffffff;
     text-align: center;
     max-width: 496px;
+    margin: 0 auto;
+    margin-bottom: 48px;
+
+    /* dopiski start*/
+    /* margin: 0 auto; */
+    /* dopiski end */
 }
 
 .button-class-one {
@@ -173,6 +181,10 @@ body {
     height: 56px;
     border: none;
     border-radius: 4px;
+    margin: 0 auto;
+    /* dopiski start*/
+    /* margin: 0 auto; */
+        /* dopiski end */
 }
 .button-class-one:hover,
 .button-class-one:focus {
@@ -247,11 +259,7 @@ body {
     text-align: center;
     margin-bottom: 72px;
 }
-    .section-three {
-    background-color: #F4F4FD;
-    padding: 120px 0;
-    margin-bottom: 72px;
-}
+
 
 
 .name-major {
@@ -323,6 +331,28 @@ body {
 
 .four-list {
     width: calc((100% - 48px) / 3);
+}
+
+.app-header {
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+    margin-bottom: 8px;
+}
+
+.type-service {
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+    
 }
 /* --------------Footer----------- */
 .footer-section {
